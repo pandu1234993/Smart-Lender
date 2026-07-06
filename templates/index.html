@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Lender Loan Prediction</title>
+</head>
+<body>
+
+<h1>Smart Lender Loan Prediction</h1>
+
+<form action="/predict" method="POST">
+
+<label>Gender</label>
+<select name="Gender">
+<option value="1">Male</option>
+<option value="0">Female</option>
+</select>
+
+<br><br>
+
+<label>Married</label>
+<select name="Married">
+<option value="1">Yes</option>
+<option value="0">No</option>
+</select>
+
+<br><br>
+
+<label>Applicant Income</label>
+<input type="number" name="ApplicantIncome" required>
+
+<br><br>
+
+<label>Loan Amount</label>
+<input type="number" name="LoanAmount" required>
+
+<br><br>
+
+<label>Credit History</label>
+<select name="Credit_History">
+<option value="1">Good</option>
+<option value="0">Bad</option>
+</select>
+
+<br><br>
+
+<input type="submit" value="Predict Loan">
+
+</form>
+
+<h2>{{ prediction }}</h2>
+
+</body>
+</html>
