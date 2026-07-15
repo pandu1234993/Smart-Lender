@@ -25,7 +25,7 @@ smart-lender/
 │── README.md
 ▶️ How to Run the Project
 Clone the repository.
-git clone https://github.com/PREETHI-VENKATESHH/smart-lender.git
+git clone https://github.com/pandu1234993/Smart-Lender
 Open the project folder.
 
 Double-click index.html or open it using Live Server in Visual Studio Code.
@@ -61,7 +61,7 @@ Admin Dashboard
 🎥 Demo Video
 Demo Video https://drive.google.com/file/d/11dCTX4SxPh0qRm-s40hptdVy0CCOpUzj/view?usp=drivesdk
 👩‍💻 Author
-Preethi Venkatesh
+Bandi Pranitha 
 
 B.Tech – Computer Science Engineering
 
